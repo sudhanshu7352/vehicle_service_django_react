@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
-const RevenueChart = () => {
+const RevenueGraph= () => {
   const [revenueData, setRevenueData] = useState([]);
 
   useEffect(() => {
-    fetch('/api/revenue/')
+    fetch('http://localhost:8000/api/revenue/')
       .then(response => response.json())
       .then(data => setRevenueData(data));
   }, []);
@@ -24,4 +24,4 @@ const RevenueChart = () => {
   );
 };
 
-export default RevenueChart;
+export default RevenueGraph;
