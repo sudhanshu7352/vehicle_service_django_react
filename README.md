@@ -2,6 +2,9 @@
 
 This is a full-stack web application for a vehicle service system developed using Django and React.js. The application allows users to register components with their repair pricing or new purchase, add repair vehicles, add issues for vehicles, calculate the final price, and display graphs for daily, monthly, and yearly revenue.
 
+Below is the screenshot for the project:
+![image](https://github.com/user-attachments/assets/d96d6b73-c1b6-4e51-a052-62febfd74244)
+
 ## Features
 
 1. Operations user can register components with their repair pricing, or new purchase.
